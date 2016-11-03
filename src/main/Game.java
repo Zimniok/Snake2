@@ -27,5 +27,12 @@ public class Game {
 	}
 	private void tick() {
 		Head.move();
+		
+		
+		Map.update();
+		render();
+	}
+	private void render() {
+		
 	}
 }
